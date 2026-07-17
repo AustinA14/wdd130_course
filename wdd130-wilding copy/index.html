@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Backend Journey</title>
+    <link rel="icon" type="image/png" href="images/wilding_logo.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.16.0/devicon.min.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a class="logo_link" href="index.html">
+                <img class="logo" src="images/wilding_logo.png" alt="Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about_me.html">About Me</a>
+                <a href="projects.html">Projects</a>
+            </nav>
+        </header>
+
+        <div id="hero">
+            <h1 id="hero-heading">Building Backend Systems, One Project at a Time</h1>
+            <img id="hero-img" src="images/wilding_self.jpeg" alt="Jonathan Wilding">
+            <div class="button-box">
+                <a class="project_redirect" href="projects.html">View My Projects</a>
+            </div>
+        </div>
+        <main>
+            <p id="intro_text">I'm Jonathan Wilding, a Software Engineering student at BYU-Idaho focused on backend development — the systems, APIs, databases, and business logic that power real applications. This site documents my growth as a developer from the ground up, and will expand over time into a full portfolio of working projects. My long-term goal is a backend engineering role, ultimately with the Church of Jesus Christ of Latter-day Saints ICS department.</p>
+            <div id="project-intro">
+                <h3>Featured Project: Sunday School Attendance Tracker</h3>
+                <img id="featured-project-snap" src="images/Screenshot 2026-07-09 124157.png" alt="Featured Project">
+                <p id="featured-project-text">A real attendance tracking tool built out of genuine need — I serve as the Sunday School secretary for my ward and wanted a better way to manage weekly attendance than paper records. Built in HTML and CSS now, with database and backend layers being added as my coursework progresses.</p>
+                <a class="card-link" href="https://github.com/jonathan-wilding/sunday-school-attendance" target="_blank">View on GitHub</a>
+            </div>
+            <div class="skills-snapshot">
+                <div class="skill">
+                    <i class="devicon-python-plain colored"></i>
+                    <span>Python</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-mysql-plain colored"></i>
+                    <span>SQL</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-html5-plain colored"></i>
+                    <span>HTML &amp; CSS</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-git-plain colored"></i>
+                    <span>Git &amp; GitHub</span>
+                </div>
+            </div>
+        </main>
+
+        <style>
+            .skills-snapshot {
+                display: flex;
+                gap: 20px;
+                flex-direction: column;
+                /* flex-wrap: wrap; */
+                align-items: center;
+                justify-content: center;
+            }
+            .skill {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+                font-family: system-ui, sans-serif;
+                font-size: 20px;
+            }
+            .skill i {
+                font-size: 44px;
+            }
+        </style>
+
+        <footer>
+            <p class="contact_heading">Want to contact me?</p>
+            <div class="contact_links">
+                <a href="https://github.com/jonathan-wilding" target="_blank" rel="noopener noreferrer">Github</a>
+                <a href="https://www.instagram.com/wildingjonathan" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+            <div class="footer_nav">
+                <p><a href="about_me.html">About Me Page</a></p>
+                <p><a href="projects.html">Projects Page</a></p>
+            </div>
+            <p class="copyright">The Backend Journey &copy; Jonathan Wilding 2026</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,184 @@
+:root {
+    --primary-color: #da2c38ff;
+    --secondary-color: #226f54ff;
+    --secondary-alt: #87c38fff;
+    --accent1: #f4f0bbff;
+    --accent2: #43291fff;
+    --background-color: rgb(85, 85, 85);
+
+    --heading-font: 'Merriweather', sans-serif;
+    --body-font: 'Source Sans 3', sans-serif;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: var(--background-color);
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    font-family: var(--heading-font);
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 30px;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo {
+    max-width: 80px;
+    margin: 10px;
+}
+
+body {
+    font-family: var(--body-font);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: white;
+}
+
+.hero {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.hero-text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.description-card {
+    margin: 30px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.career-paths-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+.career-card {
+    border-radius: 20px;
+    border: 5px solid var(--primary-color) ;
+    overflow: hidden;
+    background-color: var(--primary-color);
+}
+
+.career-card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.career-card button {
+    margin: 10px;
+}
+
+.career-info {
+    text-align: center;
+}
+
+.career-card button {
+    border-radius: 50px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: var(--background-color);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.facebook-logo {
+    width: 50px;
+}
+
+.x-logo {
+    width: 40px;
+    transform: translateY(5px);
+}
+
+.linkedin-logo {
+    width: 50px;
+}
+
+#resources_main {
+    display: grid;
+    padding-bottom: 10px;
+}
+
+#resume-resources {
+    justify-self: center;
+}
+
+#resume-resources a {
+    text-decoration: none;
+    font-size: large;
+    background-color: #226f54ff;
+    color: #f4f0bbff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#resume-resources a:hover {
+    background-color: #da2c38ff;
+}
+
+#interview-prep {
+    display: grid;
+}
+
+#end_line {
+    justify-self: center;
+}

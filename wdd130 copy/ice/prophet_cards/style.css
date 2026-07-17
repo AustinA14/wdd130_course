@@ -1,0 +1,48 @@
+.title {
+    color: #fffffe;
+    font-family: Helvetica, sans-serif;
+}
+h2 {
+    margin: 15px;
+}
+.sub-title {
+    color: #91e4fb;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+}
+#card div {
+    margin-bottom: 15px;
+}
+.sub-title:hover {
+    color: darkblue
+}
+.list {
+    font-family: Helvetica, sans-serif, Arial;
+    color: #fffffe;
+}
+#quote {
+    color: #ffd783;
+    font-family: 'Brush Script MT', 'Nanum Brush Script';
+}
+body {
+    color: #ffecd7;
+}
+#card {
+    background-color: #008db1;
+    border: 2px solid #004e63;
+    border-radius: 10px;
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+ul {
+    padding: 0;
+    list-style-position: inside;
+}
+#prophet-img {
+    border: 3px solid #fff;
+    display: block;
+    width: 200px;
+    margin: auto;
+}

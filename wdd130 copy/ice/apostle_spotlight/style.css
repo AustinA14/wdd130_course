@@ -1,0 +1,65 @@
+body {
+    background-color: #e8eced;
+}
+#card {
+    background-image: url(images/christus.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 5px solid #000;
+    margin: auto;
+    width: 1250px;
+}
+#heading, #sub-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+#first-presidency {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+#first-presidency img {
+    border: 10px solid #fff;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.counselor-img {
+    width: 170px;
+    height: 170px;
+}
+.oaks-img {
+    width: 190px;
+    height: 190px;
+}
+#apostles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+    max-width: 700px;
+}
+#apostles img {
+    border-radius: 100%;
+    border: 10px solid #fff;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: top;
+    flex-shrink: 0;
+}
+#apostles img:hover {
+    border: 10px solid darkblue;
+}
+#first-presidency img:hover {
+    border: 10px solid darkblue;
+}
+

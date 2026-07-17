@@ -1,0 +1,55 @@
+/* Add your CSS here to style your father's day page */
+header {
+    background-color: mintcream;
+    font-family:'Courier New', Courier, monospace;
+    color: darkblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    padding: 0 15px;
+}
+
+body {
+    background-color: lightblue;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 10px solid black;
+    box-shadow: 5px 5px 10px darkblue;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: flex;
+    justify-content: space-around;
+    color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section {
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+    background-color: mediumaquamarine;
+    padding: 20px;
+    color: mintcream;
+}

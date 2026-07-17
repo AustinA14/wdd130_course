@@ -1,0 +1,101 @@
+#denmark {
+    background: #fff;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 28px;
+    height: 200px;
+    width: 300px;
+}
+
+
+#dred1 {
+    background: red;
+    
+}
+
+#dred2 {
+    background: red;
+    grid-column: 2 / 4;
+}
+
+#dred3 {
+    background: red;
+
+}
+
+#dred4 {
+    background: red;
+    grid-column: 2 / 4;
+}
+
+
+#finland {
+    background: blue;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    height: 200px;
+    width: 300px;
+    gap: 28px;
+}
+
+#fwhite1 {
+    background: #fff;
+}
+
+#fwhite2 {
+    background: #fff;
+    grid-column: 2 / 4;
+}
+
+#fwhite3 {
+    background: #fff;
+    
+}
+
+#fwhite4 {
+    background: #fff;
+    grid-column: 2 / 4;
+}
+
+
+#benin {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 200px;
+    width: 300px;
+}
+
+#bgreen {
+    grid-row: 1 / 3;
+    background: green;
+}
+
+#byellow {
+    background: yellow;
+}
+
+#bred {
+    background: red;
+}
+
+
+#italy {
+    height: 200px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#igreen {
+    background: green;
+}
+
+#iwhite {
+    background: white;
+}
+
+#ired {
+    background: red;
+}

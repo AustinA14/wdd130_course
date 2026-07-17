@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=EB+Garamond:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #e6dbd0;
+    font-family: 'Cormorant Garamond', 'EB Garamond', 'Libre Baskerville', Georgia, serif;
+    color: #06070e;
+    font-size: large;
+}
+
+header {
+    font-family: 'Cinzel', serif;
+    background-color: #44633f;
+    color: #e6dbd0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 65px;
+    height: auto;
+}
+
+.logo_link {
+    padding: 5px;
+    justify-content: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e6dbd0;
+    text-align: center;
+    padding: 35px;
+    font-size: larger;
+}
+
+nav a:hover {
+    color: #5299d3;
+    background-color: #395535;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#about-me1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+#about-me2 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.linked_in {
+    color: #06070e;
+    text-decoration: underline;
+}
+
+.me {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 80%;
+    height: auto;
+    min-width: 70px;
+    margin-left: 50px;
+}
+
+.temple_pic {
+    width: 80%;
+    height: auto;
+    min-width: 120px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding-top: 150px;
+    /* align-self: end; */
+}
+
+.scenery {
+    width: 100%;
+    height: auto;
+    min-width: 250px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+footer {
+    font-family: 'Cinzel', serif;
+    background-color: #5299d3;
+    color: #5a3a31;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    text-align: center;
+    color: #5a3a31;
+}
+
+footer a:hover {
+    color: #e6dbd0;
+}
+
+.social {
+    margin: 5px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 5px;
+}
+
